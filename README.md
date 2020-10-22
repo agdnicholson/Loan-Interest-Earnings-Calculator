@@ -23,7 +23,7 @@ app\Classes\Loan.php\
 app\Classes\Tranche.php\
 app\Classes\Investor.php\
 app\Classes\Investment.php\
-app\Classes\InvestmentManager.php\
+app\Classes\InvestmentManager.php
 
 The implementation of the classes is demonstrated below.
 
@@ -32,7 +32,7 @@ Set up our loan with time period.
 $loan = new Loan("2020-10-01", "2020-11-15");
 ```
 
-Set up a tranche with name, interest rates & available amount.
+Set up a tranche with name, interest rate & available amount.
 ```php
 $trancheA = new Tranche("Tranche A", 3, 1000);
 ```
@@ -57,7 +57,7 @@ Make an investment.
 $investmentManager->makeInvestment("2020-10-03", $trancheA, $investor1, 1000);
 ```
 
-Get interest earned in an associate array from the investment manager instance passing in a month and year values as integers.
+Get interest earned in an associate array from the investment manager instance passing in month and year values as integers.
 ```php
 $earningsArr = $investmentManager->getInterestEarned($month, $year)
 ```
