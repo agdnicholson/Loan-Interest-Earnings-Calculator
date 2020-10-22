@@ -13,6 +13,17 @@ To get up and running simply execute the following command in the project root:
 ```console
 composer install
 ```
+
+Create the .env file
+```console
+cp .env.example .env
+```
+
+Generate the laravel key
+```console
+php artisan key:generate
+```
+
 A hosting environment is required to view the app. The system was developed with Laradock which is easy to install.\
 The hosting environment should point to the( public folder. Laradock will do this automatically if installed in the root folder of the project.
 (See Laradock instructions to setup that docker environment)
