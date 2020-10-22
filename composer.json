@@ -1,11 +1,7 @@
 {
-    "name": "laravel/laravel",
+    "name": "agdnicholson/Loan-Interest-Earnings-Calculator",
     "type": "project",
-    "description": "The Laravel Framework.",
-    "keywords": [
-        "framework",
-        "laravel"
-    ],
+    "description": "Loan Interest Earnings Calculator App",
     "license": "MIT",
     "require": {
         "php": "^7.3",
