@@ -8,7 +8,6 @@ use App\Classes\Tranche;
 use App\Classes\Investor;
 use App\Classes\InvestmentManager;
 
-use App\Classes\Investment;
 /**
  *  IndexController for home page
  */
